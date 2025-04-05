@@ -1,0 +1,48 @@
+{
+  "name": "ejerciciofuncionesarray",
+  "version": "1.0.0",
+  "description": "Ejercicios de funciones avanzadas de arrays",
+  "keywords": [
+    "funciones",
+    "arrays",
+    "ejercicio"
+  ],
+  "homepage": "https://github.com/mamarquezp/ejercicioFuncionesArray#readme",
+  "bugs": {
+    "url": "https://github.com/mamarquezp/ejercicioFuncionesArray/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mamarquezp/ejercicioFuncionesArray.git"
+  },
+  "license": "ISC",
+  "author": "Mike Marquez",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "reduce": "node src/reduce.js",
+    "reduce2": "node src/reduce2.js",
+    "sort": "node src/sort.js",
+    "map": "node src/map.js",
+    "filter": "node src/filter.js",
+    "push": "node src/push.js",
+    "unshift": "node src/unshift.js",
+    "sort2": "node src/sort2.js",
+    "pop": "node src/pop.js",
+    "shift": "node src/shift.js",
+    "array.from": "node src/array.from.js",
+    "concat": "node src/concat.js",
+    "slice": "node src/slice.js",
+    "indexOf": "node src/indexOf.js",
+    "includes": "node src/includes.js",
+    "some": "node src/some.js",
+    "forEach": "node src/forEach.js"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "colours": "^0.6.0-2",
+    "inquirer": "^12.5.0",
+    "readline-sync": "^1.4.10"
+  }
+}
